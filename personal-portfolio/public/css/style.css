@@ -1,0 +1,401 @@
+/* 
+   File name: style.css
+   Student’s Name: Yashar Ghasempour 
+   StudentID: 301285824
+   Date: October 1,2023
+*/
+
+/* Header Styles */
+/* Styling header with a solid background color, white text, and padding for spacing */
+header {
+    background-color: #333;
+    /* Dark background for header */
+    color: #fff;
+    /* White text color */
+    padding: 10px 0;
+    /* Top and bottom padding */
+}
+
+/* Navigation Styles */
+/* Structuring navigation bar using flexbox, aligning items, and setting padding */
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Distributing space around items */
+    align-items: center;
+    /* Aligning items vertically */
+    padding: 0 20px;
+    /* Horizontal padding */
+}
+
+.logo img {
+    height: 50px;
+    /* Ensuring logo fits well within the navbar */
+    margin-right: 10px;
+    /* Right margin for spacing */
+}
+
+/* List Styles */
+/* Styling unordered list within navigation */
+ul {
+    list-style: none;
+    /* Removing default list styling */
+    display: flex;
+    /* Displaying list items in a row */
+}
+
+li {
+    margin-right: 20px;
+    /* Right margin for list items */
+}
+
+/* Link Styles */
+/* Defining general styling for links, hover effect included */
+a {
+    text-decoration: none;
+    /* Removing underline from links */
+    color: #fff;
+    /* White text color */
+    font-weight: bold;
+    /* Bold text */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+a:hover {
+    color: #ff9900;
+    /* Orange text color on hover */
+}
+
+/* Welcome Section Styles */
+/* Styling welcome section with a background image and centered white text */
+.welcome-section {
+    background-image: url('/path/to/your/homepage-background.jpg');
+    /* Full cover background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* Center aligning text */
+    padding: 100px 0;
+    /* Top and bottom padding */
+    color: #fff;
+    /* White text color */
+}
+
+.welcome-message h1 {
+    font-size: 2.5rem;
+    /* Setting font size */
+    margin-bottom: 20px;
+    /* Bottom margin for spacing */
+}
+
+.cta-button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    /* Orange background color for buttons */
+    color: #fff;
+    /* White text color */
+    text-decoration: none;
+    /* Removing underline from text */
+    font-weight: bold;
+    /* Bold text */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth background-color transition */
+}
+
+.cta-button .btn:hover {
+    background-color: #333;
+    /* Dark background color on hover */
+}
+
+/* Mission Section Styles */
+/* Styling mission section with centered text and padding for spacing */
+.mission-section {
+    padding: 50px 0;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Centering text horizontally */
+}
+
+/* Styling heading within mission section with a specific font size and bottom margin */
+.mission-section h2 {
+    font-size: 1.5rem;
+    /* Setting font size */
+    margin-bottom: 20px;
+    /* Bottom margin for spacing */
+}
+
+/* About Section Styles */
+/* Structuring about section with flexbox, aligning items, and setting padding */
+.about-section {
+    display: flex;
+    /* Using flexbox for layout */
+    justify-content: center;
+    /* Centering items horizontally */
+    align-items: center;
+    /* Aligning items vertically */
+    padding: 100px 0;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Centering text horizontally */
+}
+
+/* Styling profile image within about section with specific dimensions and rounded corners */
+.profile-image img {
+    width: 200px;
+    /* Fixed width */
+    height: 200px;
+    /* Fixed height */
+    border-radius: 50%;
+    /* Rounded corners */
+    object-fit: cover;
+    /* Ensuring image covers the container */
+    margin-right: 20px;
+    /* Right margin for spacing */
+}
+
+/* Styling content within about section, aligning text, and setting font size */
+.about-content {
+    text-align: left;
+    /* Aligning text to the left */
+}
+
+.about-content h1 {
+    font-size: 2rem;
+    /* Setting font size */
+    margin-bottom: 20px;
+    /* Bottom margin for spacing */
+}
+
+/* Additional font and margin styling for paragraphs, and styling for links within about content */
+.about-content p {
+    font-size: 1rem;
+    /* Setting font size */
+    margin-bottom: 20px;
+    /* Bottom margin for spacing */
+}
+
+/* Styling links within about content with a specific color and removing underline */
+.about-content a {
+    text-decoration: none;
+    /* Removing underline from links */
+    color: #ff9900;
+    /* Setting text color to orange */
+    font-weight: bold;
+    /* Making text bold */
+}
+
+/* Defining hover effect for links within about content */
+.about-content a:hover {
+    text-decoration: underline;
+    /* Adding underline to links on hover */
+}
+
+/* Projects Section Styles */
+/* Styling project section with padding and center-aligned text */
+.projects-section {
+    padding: 100px 0;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Centering text horizontally */
+}
+
+/* Additional structural and styling rules for projects, images, and descriptions are added here */
+/* ... */
+
+/* Services Section Styles */
+/* Styling services section with a specific background color, text-align, and padding */
+.services-section {
+    padding: 100px 0;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Centering text horizontally */
+    background-color: #f5f5f5;
+    /* Light grey background color */
+}
+
+.services-preview {
+    background-color: #f5f5f5;
+    /* Similar to your .services-section background color */
+    padding: 50px 0;
+    /* Adjust as necessary */
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* To make sure the items wrap in a smaller screen size */
+}
+
+.service-item {
+    margin: 20px;
+    /* Adjust as necessary */
+    text-align: center;
+}
+
+.service-item img {
+    width: 100px;
+    /* Adjust as necessary */
+    height: 100px;
+    /* Adjust as necessary */
+    object-fit: cover;
+    border-radius: 50%;
+    /* Circular Images, remove if not needed */
+}
+
+/* Additional structural and styling rules for service boxes, images, and titles are added here */
+/* ... */
+
+/* Contact Section Styles */
+/* Styling contact section with specific background color, text-align, and padding */
+.contact-section {
+    padding: 100px 0;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Centering text horizontally */
+    background-color: #f5f5f5;
+    /* Light grey background color */
+}
+
+
+.contact-info {
+    background-color: #fff;
+    /* Background color for the contact information panel */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for the contact information panel */
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+    /* Text color for section titles */
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #000000;
+    /* Text color for contact information */
+}
+
+.contact-form {
+    background-color: #fff;
+    /* Background color for the contact form panel */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for the contact form panel */
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    /* Text color for section titles */
+}
+
+.contact-preview {
+    background-color: #f5f5f5;
+    /* Similar to your .contact-section background color */
+    padding: 50px 0;
+    /* Adjust as necessary */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+    /* Text color for form labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Border color for form fields */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+    /* Allow vertical resizing of the textarea */
+}
+
+.cta-button .btn,
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    /* Removing Border */
+    cursor: pointer;
+    /* Changing cursor to pointer on hover */
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #333;
+    /* Button background color on hover */
+}
+
+footer {
+    background-color: #333;
+    /* Matches header background color */
+    color: #fff;
+    /* Matches header text color */
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-info,
+.footer-links nav ul,
+.footer-copyright {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    /* Matches header link color */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+    /* Matches header link hover color */
+}

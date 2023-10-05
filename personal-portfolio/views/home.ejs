@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashar Ghasempour's Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <%- include('partials/header') %>
+
+        <main>
+            <section class="welcome-section">
+                <div class="welcome-message">
+                    <h1>Welcome to My Professional Portfolio</h1>
+                    <p>Hello, I'm Yashar Ghasempour, a Software Developer specializing in C#, Agile methodologies, and
+                        teamwork. Discover my journey, explore my projects, and learn about the services I offer.</p>
+                </div>
+                <div class="cta-button">
+                    <a href="https://www.linkedin.com/in/yashargh/" class="btn" target="_blank">Connect on LinkedIn</a>
+                </div>
+                <div class="cta-button">
+                    <a href="/about" class="btn">Learn More About Me</a>
+                </div>
+            </section>
+
+            <section class="mission-section">
+                <h2>Mission Statement</h2>
+                <p>To develop innovative and efficient software solutions that address the needs of users and clients,
+                    utilizing a comprehensive knowledge of various programming languages and technologies, and a
+                    commitment to continuous learning and excellence.</p>
+            </section>
+
+            <section class="services-preview">
+                <h2>Services</h2>
+                <div class="services-list">
+                    <!-- You can list a few services here with a link to the services page for more details -->
+                    <div class="service-item">
+                        <img src="/images/image1.jpg" alt="Software Development">
+                        <p>Software Development</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="/images/image2.jpg" alt="Web Development">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="/images/image3.jpg" alt="IT Technical Support">
+                        <p>IT Technical Support</p>
+                    </div>
+                </div>
+                <a href="/services" class="btn">View All Services</a>
+            </section>
+
+            <section class="contact-preview">
+                <h2>Contact Me</h2>
+                <p>Let's discuss how I can contribute to your project or team. Get in touch with me today!</p>
+                <a href="/contact" class="btn">Contact Me</a>
+            </section>
+        </main>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>
